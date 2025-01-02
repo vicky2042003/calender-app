@@ -1,0 +1,60 @@
+.log-communication-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.log-communication-form label {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.log-communication-form select,
+.log-communication-form input,
+.log-communication-form textarea,
+.log-communication-form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.log-communication-form select:hover,
+.log-communication-form input:hover,
+.log-communication-form textarea:hover,
+.log-communication-form select:focus,
+.log-communication-form input:focus,
+.log-communication-form textarea:focus {
+    border-color: #3d06be;
+    outline: none;
+}
+
+.log-communication-form button {
+    background-color: #3d06be;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.log-communication-form button:hover {
+    background-color: #2d0590;
+}
+
+h1 {
+    color: #13036ef2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

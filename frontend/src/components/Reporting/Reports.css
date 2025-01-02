@@ -1,0 +1,95 @@
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-form select,
+.filter-form input,
+.filter-form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.filter-form select:focus,
+.filter-form input:focus {
+    border-color: #3d06be;
+    outline: none;
+}
+
+.filter-form select {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.filter-form button {
+    background-color: #3d06be;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-form button:hover {
+    background-color: #2d0590;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.log-table th,
+.log-table td {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.log-table th {
+    background-color: #f0f2f5;
+    color: #13036ef2;
+}
+
+.log-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.log-table tr:hover {
+    background-color: #f0f2f5;
+    transition: background-color 0.3s ease;
+}
+
+.export-buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.export-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3d06be;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.export-buttons button:hover {
+    background-color: #2d0590;
+}
+

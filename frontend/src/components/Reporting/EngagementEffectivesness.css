@@ -1,0 +1,25 @@
+.engagement-effectiveness {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chart-container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        width: 90%;
+        height: auto;
+    }
+}
+
