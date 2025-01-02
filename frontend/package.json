@@ -7,6 +7,12 @@
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
+    "engines": {
+      "node": "v20.12.2" 
+    },
+ 
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
